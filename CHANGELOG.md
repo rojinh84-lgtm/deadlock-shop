@@ -1,10 +1,5 @@
 # Changelog
 
-## [1.0.1] - 2026-11-28
-
-### Changed
-- Temporarily formatted product and cart prices with Latin digits for the rollback exercise.
-
 ## [1.0.0] - 2026-11-25
 
 ### Added

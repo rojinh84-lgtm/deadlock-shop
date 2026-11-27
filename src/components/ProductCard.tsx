@@ -46,8 +46,8 @@ export default function ProductCard({
       {stockCount === 0 && <p className="stock-label">ناموجود</p>}
       <div>
         <div className="product-prices">
-          {offer && <p className="discount-price">{product.price.toLocaleString("en-US")} تومان</p>}
-          <p className={offer ? "discounted-price" : ""}>{price.toLocaleString("en-US")} تومان</p>
+          {offer && <p className="discount-price">{product.price.toLocaleString("fa-IR")} تومان</p>}
+          <p className={offer ? "discounted-price" : ""}>{price.toLocaleString("fa-IR")} تومان</p>
         </div>
         <button
           type="button"
