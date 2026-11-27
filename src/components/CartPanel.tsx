@@ -30,7 +30,7 @@ export default function CartPanel({ products }: CartPanelProps) {
           );
         })
       )}
-      <p>جمع: {total.toLocaleString("fa-IR")} تومان</p>
+      <p>جمع: {total.toLocaleString("en-US")} تومان</p>
     </aside>
   );
 }
