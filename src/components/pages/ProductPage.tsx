@@ -71,8 +71,8 @@ export default function ProductPage() {
               {stockCount === 0 ? "ناموجود" : `موجودی: ${stockCount.toLocaleString("fa-IR")}`}
             </p>
             <div className="product-detail-prices">
-              {offer && <p className="discount-price">{product.price.toLocaleString("fa-IR")} تومان</p>}
-              <p className={offer ? "discounted-price" : ""}>{price.toLocaleString("fa-IR")} تومان</p>
+              {offer && <p className="discount-price">{product.price.toLocaleString("en-US")} تومان</p>}
+              <p className={offer ? "discounted-price" : ""}>{price.toLocaleString("en-US")} تومان</p>
             </div>
             <button className="product-detail-add" type="button" disabled={stockCount === 0} onClick={handleAdd}>
               افزودن به سبد خرید
